@@ -1,0 +1,13 @@
+
+
+ .crystal-image {
+     width: 200px;
+     height: 200px;
+     border-style: solid;
+     border-color: black;
+     border-width: 4px;
+ }   
+
+ h1 {
+     color: white;
+ }
