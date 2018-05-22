@@ -1,13 +1,79 @@
 
 
- .crystal-image {
+ .crystal-image  {
      width: 200px;
      height: 200px;
      border-style: solid;
      border-color: black;
      border-width: 4px;
+     border-radius: 12px;
  }   
+
+ .borax-image {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 12px;
+} 
+
+.borax-image:hover {
+    transform: rotate(1deg);
+    transform: scale3d(33px);
+    }
+.agate-image {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 12px;
+} 
+
+.agate-image:hover {
+transform: rotate(1deg);
+transform: scale3d(33px);
+}
+
+.basilisk-image {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 12px;
+} 
+
+.basilisk-image:hover {
+    transform: rotate(1deg);
+    transform: scale3d(33px);
+    opacity: 50%;
+    }
+
+.amethyst-image {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 12px;
+} 
+
+.amethyst-image:hover {
+    transform: rotate(1deg);
+    transform: scale3d(33px);
+    opacity: 50%;
+    }
 
  h1 {
      color: white;
  }
+
+ .pokemon:hover {
+    transform: rotate(15deg);
+    height: 110px;
+    animation: dance 1s infinite;
+  
+  }
